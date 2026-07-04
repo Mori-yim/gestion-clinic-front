@@ -225,8 +225,8 @@ VITE_API_URL=https://cliniccam-api.railway.app/api/v1
 
 ---
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Mori (YIMFACK MORINO)**
-- 🎓 Licence DAP — Université de Douala
-- 🐙 GitHub : [@Mori-yim](https://github.com/Mori-yim)
+-  Licence DAP — Université de Douala
+-  GitHub : [@Mori-yim](https://github.com/Mori-yim)
