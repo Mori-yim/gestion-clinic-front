@@ -1,4 +1,4 @@
-# 🏥 ClinicCam Frontend — React 18 + Recharts
+#  ClinicCam Frontend — React 18 + Recharts
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
@@ -10,7 +10,7 @@ Interface utilisateur de la plateforme **ClinicCam** — gestion de clinique mé
 
 ---
 
-## 📋 Table des Matières
+##  Table des Matières
 
 - [À propos](#-à-propos)
 - [Technologies](#-technologies)
@@ -23,7 +23,7 @@ Interface utilisateur de la plateforme **ClinicCam** — gestion de clinique mé
 
 ---
 
-## 📖 À propos
+##  À propos
 
 ClinicCam Frontend est une SPA React avec 3 espaces distincts selon le rôle :
 
@@ -35,7 +35,7 @@ ClinicCam Frontend est une SPA React avec 3 espaces distincts selon le rôle :
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 | Technologie | Version | Usage |
 |------------|---------|-------|
@@ -52,7 +52,7 @@ ClinicCam Frontend est une SPA React avec 3 espaces distincts selon le rôle :
 
 ---
 
-## 📱 Pages & Fonctionnalités
+##  Pages & Fonctionnalités
 
 | Page | Route | Rôle | Description |
 |------|-------|------|-------------|
@@ -68,7 +68,7 @@ ClinicCam Frontend est une SPA React avec 3 espaces distincts selon le rôle :
 
 ---
 
-## 📊 Graphiques Recharts
+##  Graphiques Recharts
 
 ### 1. LineChart — Activité des 7 derniers jours
 ```jsx
@@ -113,7 +113,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 
 ---
 
-## 🔄 Pagination
+##  Pagination
 
 Composant `Pagination.jsx` réutilisable connecté à la pagination backend :
 
@@ -137,14 +137,14 @@ const { data } = useQuery({
 
 ---
 
-## ✅ Prérequis
+##  Prérequis
 
 - Node.js 18+
 - ClinicCam Backend démarré sur `http://localhost:8081`
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Mori-yim/cliniccam-frontend.git
@@ -156,7 +156,7 @@ npm run dev
 
 ---
 
-## ⚙️ Variables d'environnement
+##  Variables d'environnement
 
 ```env
 # .env.local
@@ -165,7 +165,7 @@ VITE_API_URL=https://votre-cliniccam-api.railway.app/api/v1
 
 ---
 
-## 🗂️ Structure du projet
+##  Structure du projet
 
 ```
 cliniccam-frontend/
@@ -203,17 +203,17 @@ cliniccam-frontend/
 
 ---
 
-## 👥 Comptes de démonstration
+##  Comptes de démonstration
 
 | Rôle | Email | Mot de passe | Redirection |
 |------|-------|-------------|-------------|
-| 👔 ADMIN | admin@cliniccam.cm | Admin123! | `/dashboard` |
-| 🩺 MEDECIN | dr.mbarga@cliniccam.cm | Medecin123! | `/agenda` |
-| 👤 PATIENT | alain.talla@gmail.com | Patient123! | `/medecins` |
+|  ADMIN | admin@cliniccam.cm | Admin123! | `/dashboard` |
+|  MEDECIN | dr.mbarga@cliniccam.cm | Medecin123! | `/agenda` |
+|  PATIENT | alain.talla@gmail.com | Patient123! | `/medecins` |
 
 ---
 
-## ☁️ Déploiement Vercel
+##  Déploiement Vercel
 
 ```bash
 # Variable d'environnement sur Vercel :
