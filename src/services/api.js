@@ -2,14 +2,11 @@
 import axios from 'axios'
 
 /**
- * ================================================================
  * CLIENT HTTP AXIOS — CLINICCAM
- * ================================================================
  * Instance Axios avec :
  *   - URL de base de l'API Spring Boot
  *   - Injection automatique du token JWT dans chaque requête
  *   - Déconnexion automatique si token expiré (401)
- * ================================================================
  */
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://gestion-clinic-backend.onrender.com/api/v1'
 
@@ -41,10 +38,7 @@ api.interceptors.response.use(
 
 export default api
 
-// ============================================================
 // API ORGANISÉE PAR DOMAINE
-// ============================================================
-
 export const authApi = {
   register: (data) => api.post('/auth/register', data),
   login: (data) => api.post('/auth/login', data),
